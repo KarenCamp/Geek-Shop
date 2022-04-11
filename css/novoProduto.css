@@ -1,0 +1,87 @@
+.novoProduto__conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0px;
+    width: 100%;
+}
+
+.novoProduto__titulo {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color:#464646;
+    font-size: 23px;
+    margin-right: 285px;
+}
+
+.novoProduto__containerImgEButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-bottom: 35px;
+}
+
+.novoProduto__imgArrastar {
+    width: 50%;
+}
+
+.novoProduto__botao--procurarImg {
+    background-color: transparent;
+    border: 1px solid #2A7AE4;
+    color: rgb(42, 122, 228);
+    padding: 12px 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: "Raleway";
+}
+
+.novoProduto__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 40%;
+    height: 300px;
+}
+
+.novoProduto__labels {
+    display: inline-block;
+    margin: 0px 0px;
+    background: white;
+    font-size: 12px;
+    color: #A2A2A2;
+    width: 98.2%;
+    height: 18px;
+    box-shadow: 1px 1px 1px lightgray;
+}
+
+.novoProduto__inputs, .novoProduto__txtarea {
+    width: 94.5%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border: 0 none;
+    box-shadow: 1px 1px 1px lightgray;
+}
+
+.novoProduto__txtarea::placeholder {
+    color:#464646;
+    font-size: 16px;
+    font-family: "Raleway";
+    opacity: 0.5;
+}
+
+.novoProduto__txtarea {
+    resize: none;
+}
+
+.novoProduto__botao--submitForm {
+    width: 98.7%;
+    background-color: #2A7AE4;
+    color: white;
+    padding: 16px 16px;
+    font-size: 14px;
+    border: 0 none;
+    font-family: "Raleway";
+    cursor: pointer;
+}

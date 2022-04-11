@@ -1,0 +1,42 @@
+.login__conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0px;
+    width: 100%;
+}
+
+.login__titulo {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color:#464646;
+    font-size: 20px;
+    margin-right: 60px;
+}
+
+.login__inputs {
+    width: 84.5%;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border: 0 none;
+    box-shadow: 1px 1px 1px lightgray
+}
+
+.login__inputs::placeholder {
+    color:#464646;
+    font-family: "Raleway";
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.login__botao--entrar {
+    width: 89.5%;
+    background-color: #2A7AE4;
+    color: white;
+    padding: 16px 16px;
+    font-size: 14px;
+    border: 0 none;
+    font-family: "Raleway";
+    cursor: pointer;
+}

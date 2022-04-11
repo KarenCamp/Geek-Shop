@@ -1,0 +1,53 @@
+.cabecalho {
+    background-color: #FFFFFF;
+    padding: 5px 0px;
+}
+
+.cabecalho__pequenoContainer {
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    margin: 20px 0px 20px 90px;
+    padding-left: 25px;
+}
+
+.cabecalho__tituloDaLoja {
+    margin-right: -4px;
+}
+
+.cabecalho__tituloDaLoja::before {
+    content: url(../imgs/icone-controle-games.svg);
+}
+
+.cabecalho__barraDePesquisa {
+    background-color: #F5F5F5;
+    background-image: url(../imgs/lupa.png);
+    background-position: 95%;
+    background-repeat: no-repeat;
+    border: 0px;
+    border-radius: 20px;
+    margin-left: 50px;
+    padding: 8.5px 25px;
+    width: 31%;
+}
+
+.cabecalho__barraDePesquisa::placeholder {
+    font-family: "Raleway";
+    color: #464646;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.cabecalho__botao--login, .cabecalho__botao--adm {
+    position:absolute;
+    top: 22px;
+    right: 115px;
+    background-color: transparent;
+    border: 1px solid #2A7AE4;
+    color: rgb(42, 122, 228);
+    margin-left: 40px;
+    padding: 8.5px 60px;
+    cursor: pointer;
+    font-family: "Raleway";
+}
+
