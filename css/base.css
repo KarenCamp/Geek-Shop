@@ -3,6 +3,10 @@
     src: url('../fonts/Raleway-VariableFont_wght.ttf') format('truetype');
 } 
 
+html {
+    width: 100vw;
+}
+
 body {
     font-family: 'Raleway';
     background: #F5F5F5;
