@@ -8,5 +8,5 @@ Updating README - 19/04/22:
 
 - Ainda não me familiarizei com unidades de medidas como "em" ou "rem", por enquanto sigo com meus "px", "%" e "vw/vh" ("vw" pela primeira vez aqui no Geek Shop)
 
-- O desenvolvimento do projeto não está sofisticado como eu gostaria, no momento estou me dedicando aos cuidados pós-cirúrgicos de um familiar querido hospedado em minha casa, futuramente poderei estar dispondo de maior delicadeza no trato desta potencial aplicação.
+- O desenvolvimento do projeto não está sofisticado como eu gostaria, no momento estou me dedicando aos cuidados pós-operatórios de um familiar querido hospedado em minha casa, futuramente poderei estar dispondo de maior delicadeza no trato desta potencial aplicação.
 
