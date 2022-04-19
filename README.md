@@ -8,5 +8,7 @@ Updating README - 19/04/22:
 
 - Ainda não me familiarizei com unidades de medidas como "em" ou "rem", por enquanto sigo com meus "px", "%" e "vw/vh" ("vw" pela primeira vez aqui no Geek Shop)
 
+- Será implementado um botão no lugar da área do mapa de imagem implementado no html na imagem do banner, este recurso é interessante, porém não oferece o suporte desejado no que diz respeito à responsividade.
+
 - O desenvolvimento do projeto não está sofisticado como eu gostaria, no momento estou me dedicando aos cuidados pós-operatórios de um familiar querido hospedado em minha casa, futuramente poderei estar dispondo de maior delicadeza no trato desta potencial aplicação.
 
