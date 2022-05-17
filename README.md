@@ -23,7 +23,6 @@ Obs: Eu estava tão concentrada no CRUD e seus relacionados que agora que me dep
 
 
 
-
 Informações técnicas:
 
 Login de administrador do Geek Shop:
@@ -31,5 +30,5 @@ Login de administrador do Geek Shop:
 e-mail: edition-mode-on@teste.com
 password: senha 
 
-Foi utilizada a extensão "Live Server" do Visual Studio Code e a dependência "Json Server" para rodar a aplicação e sua lista de dados, basta depois das instalações digitar: "npx json-server --watch db.json" no terminal que os dados serão carregados para o corpo das páginas, com a extensão Live Server habilitada clique em "Go live" para acessar as páginas com os produtos.
+Foi utilizada a extensão "Live Server" do Visual Studio Code e a dependência "Json Server" para rodar a aplicação e sua lista de dados, basta depois das instalações digitar: "npx json-server --watch db.json" no terminal que os dados serão carregados para o corpo das páginas, com a extensão Live Server habilitada clique em "Go live" para acessar as páginas e os produtos.
 
