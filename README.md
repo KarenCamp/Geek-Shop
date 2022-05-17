@@ -16,11 +16,20 @@ Updating README - 16/05/22:
 
 CRUD bem sucedido, arquivos .js todos aí, com type="module" agora e importações (nunca pratiquei muito disso antes, deu pra viver bastante coisa nova em HTML, CSS e Javascript a partir desta aventura, a partir de mais este AluraChallenge do programa Oracle Next Education. 
 
+Há avisos e informações sobre como as coisas foram organizadas e tratadas na aplicação, ao longo da navegação nas páginas. Encontrei uma forma mais simples e também eficaz de se trabalhar com as imagens dos produtos, sem ter que neste momento recorrer a conhecimentos avançados de como trabalhar com uploads e codificação para imagens em arquivos .json, dentre outras formas menos práticas também, na minha opinião. Implementações mais simples, sem uso de Bootstrap e JQuery, sem uso de modais ao invés dos desestilizados alerts, mas a missão principal foi cumprida, e já dá pra fazer um push satisfatório desta considerável realização em HTML, CSS e Javascript pra mim, ainda há muito o que se aprender, mas pelo menos consegui este feito. 
+
+Obs: Eu estava tão concentrada no CRUD e seus relacionados que agora que me deparei com a falta de funcionalidade da barra de pesquisa, mas ressaltando, a proposta do AluraChallenge foi atendida em seu núcleo, ainda que eu não me esqueça desta funcionalidade e ainda retorne ao js visando suas linhas de código de implementação.
+
+
+
+
+
+Informações técnicas:
 
 Login de administrador do Geek Shop:
 
 e-mail: edition-mode-on@teste.com
-password: senha
+password: senha 
 
+Foi utilizada a extensão "Live Server" do Visual Studio Code e a dependência "Json Server" para rodar a aplicação e sua lista de dados, basta depois de instaladas e habilitadas digitar: "npx json-server --watch db.json" no terminal que os dados serão carregados para o corpo das páginas.
 
-Há avisos e informações sobre como as coisas foram organizadas e tratadas na aplicação, ao longo da navegação nas páginas, encontrei uma forma mais simples e também eficaz de se trabalhar com as imagens dos produtos, sem ter que neste momento recorrer a conhecimentos avançados de como trabalhar com uploads e codificação para imagens em arquivos .json, dentre outras formas menos práticas também, na minha opinião. Implementações mais simples, sem uso de Bootstrap e JQuery, sem uso de modais ao invés dos desestilizados alerts, mas a missão principal foi cumprida, e já dá pra fazer um push satisfatório desta considerável realização em HTML, CSS e Javascript pra mim, ainda há muito o que se aprender, mas pelo menos consegui este feito. Bora pro push que não vejo a hora...
