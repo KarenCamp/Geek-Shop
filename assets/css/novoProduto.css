@@ -1,0 +1,125 @@
+.novoProduto__conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0px;
+}
+
+.novoProduto__titulo {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color:#464646;
+    font-size: 23px;
+    margin-right: 275px;
+}
+
+.novoProduto__containerImgEButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 535px;
+    margin-bottom: 35px;
+}
+
+.novoProduto__imgArrastar {
+    width: 275px;
+}
+
+.novoProduto__botao--procurarImg {
+    background-color: transparent;
+    border: 1px solid #2A7AE4;
+    color: rgb(42, 122, 228);
+    padding: 12px 12px;
+    cursor: pointer;
+    font-family: "Raleway";
+}
+
+.novoProduto__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 535px;
+    height: 300px;
+}
+
+.novoProduto__labels {
+    display: inline-block;
+    margin: 0px 0px;
+    background: white;
+    font-size: 12px;
+    color: #A2A2A2;
+    width: 535px;
+    height: 18px;
+    box-shadow: 1px 1px 1px lightgray;
+}
+
+.novoProduto__inputs, .novoProduto__txtarea {
+    width: 515px;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border: 0 none;
+    box-shadow: 1px 1px 1px lightgray;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.novoProduto__txtarea::placeholder {
+    color:#464646;
+    font-size: 16px;
+    font-family: "Raleway";
+    opacity: 0.5;
+}
+
+.novoProduto__txtarea {
+    resize: none;
+}
+
+.novoProduto__botao--submitForm {
+    width: 535px;
+    background-color: #2A7AE4;
+    color: white;
+    padding: 16px 16px;
+    font-size: 14px;
+    border: 0 none;
+    font-family: "Raleway";
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 575px) {
+
+    .novoProduto__titulo {
+        align-self: flex-start;
+        margin-left: 4%;
+    }
+
+    .novoProduto__containerImgEButton {
+        display: block;
+        width: 100%;
+    }
+
+    .novoProduto__botao--procurarImg, .novoProduto__span {
+        display: none;
+    }
+
+    .novoProduto__imgArrastar {
+        margin: 0px 15px 35px 15px;
+        width: calc(100% - 30px)
+    }
+
+    .novoProduto__formulario {
+        margin: 0px 3.5vw 0px 3.5vw;
+        width: 93vw;
+        
+    }
+
+    .novoProduto__labels, .novoProduto__botao--submitForm {
+        width: 93vw;
+    }
+
+    .novoProduto__inputs, .novoProduto__txtarea {
+        width: calc(93vw - 20px);
+    }
+}

@@ -1,0 +1,148 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Produto A1",
+      "preco": "R$ 60,00",
+      "descricao": "Caneca da linha Star Wars"
+    },
+    {
+      "id": 2,
+      "nome": "Produto B2",
+      "preco": "R$ 60,00",
+      "descricao": "Bonecos da linha Star Wars"
+    },
+    {
+      "id": 3,
+      "nome": "Produto C3",
+      "preco": "R$ 60,00",
+      "descricao": "Boneco da linha Star Wars"
+    },
+    {
+      "id": 4,
+      "nome": "Produto D4",
+      "preco": "R$ 60,00",
+      "descricao": "Boneco da linha Star Wars"
+    },
+    {
+      "id": 5,
+      "nome": "Produto E5",
+      "preco": "R$ 60,00",
+      "descricao": "Boneco da linha Star Wars"
+    },
+    {
+      "id": 6,
+      "nome": "Produto F6",
+      "preco": "R$ 60,00",
+      "descricao": "Boneco da linha Star Wars"
+    },
+    {
+      "id": 7,
+      "nome": "Produto G7",
+      "preco": "R$ 60,00",
+      "descricao": "Controle da linha Xbox na cor branca"
+    },
+    {
+      "id": 8,
+      "nome": "Produto H8",
+      "preco": "R$ 60,00",
+      "descricao": "Mais novo console na cor azul da linha Play Station e controle"
+    },
+    {
+      "id": 9,
+      "nome": "Produto I9",
+      "preco": "R$ 60,00",
+      "descricao": "Console antigo da linha Nintendo"
+    },
+    {
+      "id": 10,
+      "nome": "Produto J1",
+      "preco": "R$ 60,00",
+      "descricao": "Controles modernos de video-games"
+    },
+    {
+      "id": 11,
+      "nome": "Produto K2",
+      "preco": "R$ 60,00",
+      "descricao": "Console da linha Xbox"
+    },
+    {
+      "id": 12,
+      "nome": "Produto L3",
+      "preco": "R$ 60,00",
+      "descricao": "Game boy color"
+    },
+    {
+      "id": 13,
+      "nome": "Produto M4",
+      "preco": "R$ 60,00",
+      "descricao": "Camiseta Atari"
+    },
+    {
+      "id": 14,
+      "nome": "Produto N5",
+      "preco": "R$ 60,00",
+      "descricao": "Camiseta SNES"
+    },
+    {
+      "id": 15,
+      "nome": "Produto O6",
+      "preco": "R$ 60,00",
+      "descricao": "Boneco Sonic"
+    },
+    {
+      "id": 16,
+      "nome": "Produto P7",
+      "preco": "R$ 60,00",
+      "descricao": "Rádio-relógio retrô na cor rosa"
+    },
+    {
+      "id": 17,
+      "nome": "Produto Q8",
+      "preco": "R$ 60,00",
+      "descricao": "Óculos Virtual"
+    },
+    {
+      "id": 18,
+      "nome": "Produto R9",
+      "preco": "R$ 60,00",
+      "descricao": "Boneco Pikachu em tamanho grande"
+    },
+    {
+      "id": 19,
+      "nome": "Produto S1",
+      "preco": "R$ 60,00",
+      "descricao": "Caneca League of Legends"
+    },
+    {
+      "id": 20,
+      "nome": "Produto T2",
+      "preco": "R$ 60,00",
+      "descricao": "Camiseta Batman Beyond Ringer"
+    },
+    {
+      "id": 21,
+      "nome": "Produto U3",
+      "preco": "R$ 60,00",
+      "descricao": "Bonecos Batman e Superman"
+    },
+    {
+      "id": 22,
+      "nome": "Produto V4",
+      "preco": "R$ 60,00",
+      "descricao": "Caneca Harry Potter"
+    },
+    {
+      "id": 23,
+      "nome": "Produto W5",
+      "preco": "R$ 60,00",
+      "descricao": "Fantasia Cosplay Ghost Recon"
+    },
+    {
+      "id": 24,
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Fantasias Cosplay femininas"
+    }
+  ]
+}

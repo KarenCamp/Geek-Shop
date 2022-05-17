@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geek Shop - Todos os produtos</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho.css">
+    <link rel="stylesheet" href="../assets/css/secaoDeProdutos.css">
+    <link rel="stylesheet" href="../assets/css/contato.css">
+    <link rel="stylesheet" href="../assets/css/credits.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__nav">
+            <div class="cabecalho__pequenoContainer">
+                <a href="index.html">
+                    <div class="cabecalho__logo">
+                        <h1 class="cabecalho__tituloDaLoja"><img class="cabecalho__tituloDaLoja"
+                                src="../assets/imgs/Alura.png" alt='palavra "Alura" já estilizada em forma de imagem'>
+                            <img class="cabecalho__tituloDaLoja" src="../assets/imgs/Geek.png"
+                                alt='palavra "Geek" já estilizada em forma de imagem'>
+                        </h1>
+                    </div>
+                </a>
+                <input type="search" class="cabecalho__barraDePesquisa" placeholder="O que deseja encontrar?">
+            </div>
+            <a href="login.html"><button class="cabecalho__botao--login" data-btn-login>Login</button></a>
+            <button class="cabecalho__botao--adm" data-btn-logado>Menu adm</button>
+        </nav>
+    </header>
+    <main>
+        <section class="secaoDeProdutos">
+            <div class="secaoDeProdutos__cabecalho secaoDeProdutos__cabecalho--allProducts">
+                <h2 class="secaoDeProdutos__titulo">Todos os produtos</h2>
+                <a href="novo-produto.html"><button class="secaoDeProdutos__botao--adicionar">Adicionar
+                        produto</button></a>
+            </div>
+            <ul class="secaoDeProdutos__lista" data-sessao data-sessao-wars data-sessao-consoles data-sessao-diversos data-sessao-extra>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <section class="contato">
+            <div class="contato__container">
+                <div class="contato__subcontainer">
+                    <div class="contato__logo">
+                        <h2 class="contato__tituloDaLoja"><img class="contato__tituloDaLoja"
+                                src="../assets/imgs/Alura.png" alt='palavra "Alura" já estilizada em forma de imagem'>
+                            <img class="contato__tituloDaLoja" src="../assets/imgs/Geek.png"
+                                alt='palavra "Geek" já estilizada em forma de imagem'>
+                        </h2>
+                    </div>
+                    <ul class="contato__ul">
+                        <li class="contato__li"><a href="#">Quem somos nós</a></li>
+                        <li class="contato__li"><a href="#">Política de privacidade</a></li>
+                        <li class="contato__li"><a href="#">Programa fidelidade</a></li>
+                        <li class="contato__li"><a href="#">Nossas lojas</a></li>
+                        <li class="contato__li"><a href="#">Quero ser franqueado</a></li>
+                        <li class="contato__li"><a href="#">Anuncie aqui</a></li>
+                    </ul>
+                </div>
+                <div class="contato__formulario">
+                    <h2 class="contato__tituloDoFormulario"><strong>Fale conosco</strong></h2>
+                    <form action="">
+                        <label class="contato__labelsDoFormulario" for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" class="contato__inputDoFormulario" required>
+                        <label class="contato__labelsDoFormulario" for="mensagem">Mensagem</label>
+                        <textarea cols="45" rows="3" name="mensagem" id="mensagem" class="contato__txtareaDoFormulario"
+                            required></textarea>
+                        <input type="submit" value="Enviar mensagem" class="contato__botaoDoFormulario">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="credits">
+            <p>Desenvolvido por KarenCamp<br>
+                2022</p>
+        </div>
+    </footer>
+    <script type="module" src="../controller/listaProdutos-controller.js"></script>
+    <script type="module" src="../controller/account-controller-actions.js"></script>
+</body>
+
+</html>

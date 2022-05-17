@@ -1,0 +1,14 @@
+{
+  "name": "geek-shop",
+  "version": "1.0.0",
+  "description": "Projeto de e-commerce desenvolvido durante o último Alura Challenge Front-end do Programa ONE",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karen Camp",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

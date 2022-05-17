@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geek Shop - Editar produto</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/cabecalho.css">
+    <link rel="stylesheet" href="../assets/css/novoProduto.css">
+    <link rel="stylesheet" href="../assets/css/contato.css">
+    <link rel="stylesheet" href="../assets/css/credits.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__nav">
+            <div class="cabecalho__pequenoContainer">
+                <a href="index.html">
+                    <div class="cabecalho__logo">
+                        <h1 class="cabecalho__tituloDaLoja"><img class="cabecalho__tituloDaLoja" src="../assets/imgs/Alura.png"
+                                alt='palavra "Alura" já estilizada em forma de imagem'>
+                            <img class="cabecalho__tituloDaLoja" src="../assets/imgs/Geek.png"
+                                alt='palavra "Geek" já estilizada em forma de imagem'>
+                        </h1>
+                    </div>
+                </a>
+                <input type="search" class="cabecalho__barraDePesquisa" placeholder="O que deseja encontrar?">
+            </div>
+            <button class="cabecalho__botao--adm" data-btn-logado>Menu adm</button>
+        </nav>
+    </header>
+    <main>
+        <section class="novoProduto">
+            <div class="novoProduto__conteudo">
+                <h2 class="novoProduto__titulo"><strong>Editar dados do produto</strong></h2>
+                <div class="novoProduto__containerImgEButton">
+                    <picture>
+                        <source media="(max-width: 575px)" srcset="../assets/imgs/novoProduto2.png">
+                        <img class="novoProduto__imgArrastar" src="../assets/imgs/novoProduto.png"
+                            alt="arraste para adicionar uma imagem para o produto">
+                    </picture>
+                    <span class="novoProduto__span"> ou </span>
+                    <label for="img-produto" class="novoProduto__botao--procurarImg">Procure nas suas imagens</label>
+                    <input type="file" name="img-produto" id="img-produto" data-image-newProduct>
+                </div>
+                <form action="" class="novoProduto__formulario" data-form-newProduct-edit>
+                    <label class="novoProduto__labels" for="nome-produto">&nbsp&nbspNome do produto</label>
+                        <input class="novoProduto__inputs" type="text" name="nome-produto" id="nome-produto" class="novoProduto__inputs" required data-input-name-newProduct-edit>
+                    <label class="novoProduto__labels" for="preco">&nbsp&nbspPreço do produto</label>
+                        <input class="novoProduto__inputs" name="preco" id="preco" class="novoProduto__inputs" pattern="R\$\s{1}\d{1,4},{1}\d{2}" title='Formato obrigatório -> Exemplo: R$ 59,90 ( limite de 4 números para os dígitos antes da vírgula; 2 números obrigatórios depois da vírgula, contabilizando os centavos; o único espaço permitido e também obrigatório tem que vir depois de "R$" )' required data-input-price-newProduct-edit>
+                    <label class="novoProduto__labels--exception" for="descricao">
+                        <textarea cols="5" rows="3" name="descricao" id="descricao" class="novoProduto__txtarea" placeholder="Descrição do produto" required data-txtarea-newProduct-edit></textarea>
+                    </label>
+                    <input class="novoProduto__botao--submitForm" type="submit" value="Concluir edição" data-form-button-newProduct-edit>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="contato">
+            <div class="contato__container">
+                <div class="contato__subcontainer">
+                    <div class="contato__logo">
+                        <h2 class="contato__tituloDaLoja"><img class="contato__tituloDaLoja" src="../assets/imgs/Alura.png"
+                                alt='palavra "Alura" já estilizada em forma de imagem'>
+                            <img class="contato__tituloDaLoja" src="../assets/imgs/Geek.png"
+                                alt='palavra "Geek" já estilizada em forma de imagem'>
+                        </h2>
+                    </div>
+                    <ul class="contato__ul">
+                        <li class="contato__li"><a href="#">Quem somos nós</a></li>
+                        <li class="contato__li"><a href="#">Política de privacidade</a></li>
+                        <li class="contato__li"><a href="#">Programa fidelidade</a></li>
+                        <li class="contato__li"><a href="#">Nossas lojas</a></li>
+                        <li class="contato__li"><a href="#">Quero ser franqueado</a></li>
+                        <li class="contato__li"><a href="#">Anuncie aqui</a></li>
+                    </ul>
+                </div>
+                <div class="contato__formulario">
+                    <h2 class="contato__tituloDoFormulario"><strong>Fale conosco</strong></h2>
+                    <form action="">
+                        <label class="contato__labelsDoFormulario" for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" class="contato__inputDoFormulario" required>
+                        <label class="contato__labelsDoFormulario" for="mensagem">Mensagem</label>
+                        <textarea cols="45" rows="3" name="mensagem" id="mensagem" class="contato__txtareaDoFormulario"
+                            required></textarea>
+                        <input type="submit" value="Enviar mensagem" class="contato__botaoDoFormulario">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="credits">
+            <p>Desenvolvido por KarenCamp<br>
+                2022</p>
+        </div>
+    </footer>
+    <script type="module" src="../controller/atualizaProdutos-controller.js"></script>
+    <script type="module" src="../controller/account-controller-actions.js"></script>
+</body>
+
+</html>
