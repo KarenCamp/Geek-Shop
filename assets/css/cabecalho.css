@@ -38,6 +38,17 @@
     font-size: 13.5px;
 }
 
+.cabecalho__itensPesquisa {
+    display: none;
+    background-color: #FFFFFF;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
 .cabecalho__botao--login, .cabecalho__botao--adm {
     position:absolute;
     top: 22px;

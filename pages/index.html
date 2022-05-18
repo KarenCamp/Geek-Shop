@@ -26,11 +26,12 @@
                         </h1>
                     </div>
                 </a>
-              <input type="search" class="cabecalho__barraDePesquisa" placeholder="O que deseja encontrar?">
+              <input type="search" class="cabecalho__barraDePesquisa" placeholder="O que deseja encontrar?" data-search-bar>
             </div>
             <a href="login.html"><button class="cabecalho__botao--login" data-btn-login>Login</button></a>
             <button class="cabecalho__botao--adm" data-btn-logado>Menu adm</button>
         </nav>
+        <div data-div-busca></div>
     </header>
     <main>
         <section class="chamada">
@@ -112,5 +113,6 @@
     </footer>
     <script type="module" src="../controller/listaProdutos-controller.js"></script>
     <script type="module" src="../controller/account-controller-actions.js"></script>
+    <script type="module" src="../controller/search-bar.js"></script>
 </body>
 </html>

@@ -1,6 +1,5 @@
 import { productService } from '../service/product-service.js'
 
-
 //DEFINIÇÃO DE TEMPLATE DO PRODUTO
     export const criaNovoProduto = (id, name, price, description) =>  {
     let display = sessionStorage.getItem("displayEdition")

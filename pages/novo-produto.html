@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../assets/css/novoProduto.css">
     <link rel="stylesheet" href="../assets/css/contato.css">
     <link rel="stylesheet" href="../assets/css/credits.css">
+    <link rel="stylesheet" href="../assets/css/secaoDeProdutos.css">
 </head>
 
 <body>
@@ -27,10 +28,12 @@
                         </h1>
                     </div>
                 </a>
-                <input type="search" class="cabecalho__barraDePesquisa" placeholder="O que deseja encontrar?">
+                <input type="search" class="cabecalho__barraDePesquisa" placeholder="O que deseja encontrar?" data-search-bar>
             </div>
             <button class="cabecalho__botao--adm" data-btn-logado>Menu adm</button>
         </nav>
+       <div data-div-busca>
+       </div>
     </header>
     <main>
         <section class="novoProduto">
@@ -99,6 +102,7 @@
     </footer>
     <script type="module" src="../controller/cadastraProdutos-controller.js"></script>
     <script type="module" src="../controller/account-controller-actions.js"></script>
+    <script type="module" src="../controller/search-bar.js"></script>
 </body>
 
 </html>
