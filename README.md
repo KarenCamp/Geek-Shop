@@ -27,7 +27,7 @@ Informações técnicas:
 Login de administrador do Geek Shop:
 
 e-mail: edition-mode-on@teste.com
-password: senha 
+
 
 Foi utilizada a extensão "Live Server" do Visual Studio Code e a dependência "Json Server" para rodar a aplicação e sua lista de dados. Depois da instalação da extensão Live Server de maneira simples através do VSCode, com a pasta do projeto aberta no programa basta digitar no terminal integrado: "npm i" para instalar as dependências do projeto e depois do processo concluído digitar no terminal: "npx json-server --watch db.json" para que os dados sejam carregados para o corpo das páginas. Com a extensão habilitada, clique em "Go Live" para acessar as páginas e os produtos.
 

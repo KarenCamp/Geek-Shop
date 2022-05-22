@@ -7,7 +7,7 @@ const passwordLogin = document.querySelector("[data-password]").value;
 
 formLogin.addEventListener("submit", function(event) {
     event.preventDefault();
-        if (mailLogin === "edition-mode-on@teste.com" && passwordLogin === "senha") {
+        if (mailLogin === "edition-mode-on@teste.com") {
             alert("Autenticado para o Modo Edição.");
             sessionStorage.setItem("displayEdition", "flex");
             btnFazerLogin.style.display = "none"
