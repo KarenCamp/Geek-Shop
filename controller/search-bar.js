@@ -5,15 +5,17 @@ let searchBar = document.querySelector("[data-search-bar]");
 let itensEncontrados = document.querySelector("[data-div-busca]")
 let jaListado = [];
 let logado;
-let ulBusca = [document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul"),document.createElement("ul")];
-
+let ulBusca = [];
+for (let c = 0; c <= 18; c++){
+    ulBusca.push(document.createElement("ul"))
+} 
 
 window.addEventListener("load", function(){
     logado = sessionStorage.getItem("displayEdition") === "flex" 
 })
 
 function limpaBusca() {
-    for (let i = 0; i < ulBusca.length; i++) {
+    for (let i = 0; i < 19; i++) {
     ulBusca[i].innerHTML = "";
     ulBusca[i].style.display = "none"
     }
