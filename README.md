@@ -36,3 +36,7 @@ Updating README - 18/05/22:
 
 Filtro da barra de pesquisa implementado
 
+Updating README - 22/05/22:
+
+Filtro da barra de pesquisa agora refinando os resultados
+
