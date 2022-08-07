@@ -1,13 +1,12 @@
 import { btnFazerLogin, btnLogado } from '../controller/account-controller-actions.js'
 
 const formLogin = document.querySelector("[data-form-login]");
-const mailLogin = document.querySelector("[data-mail]").value;
-const passwordLogin = document.querySelector("[data-password]").value;
-
 
 formLogin.addEventListener("submit", function(event) {
     event.preventDefault();
-        if (mailLogin === "edition-mode-on@teste.com") {
+    const mailLogin = document.querySelector("[data-mail]").value;
+    const passwordLogin = document.querySelector("[data-password]").value;
+        if (mailLogin === "edition-mode-on@teste.com" && passwordLogin === "admin789") {
             alert("Autenticado para o Modo Edição.");
             sessionStorage.setItem("displayEdition", "flex");
             btnFazerLogin.style.display = "none"
