@@ -1,12 +1,13 @@
 const listaProdutos = () =>  {
-    return fetch(`http://localhost:3000/produtos`)
+    //return fetch(`http://localhost:3000/produtos`)
+    return fetch(`https://my-json-server.typicode.com/KarenCamp/Geek-Shop/produtos`)
     .then(resposta => {
         return resposta.json()
     })
 }
 
 const criaProduto = (id, name, price, description) => { 
-    return fetch(`http://localhost:3000/produtos`, {
+    return fetch(`https://my-json-server.typicode.com/KarenCamp/Geek-Shop/produtos`, {
         method: 'POST', 
         headers: {
             'Content-Type' : 'application/json'
@@ -24,20 +25,20 @@ const criaProduto = (id, name, price, description) => {
 }
 
 const removeProduto = (id) => { 
-    return fetch(`http://localhost:3000/produtos/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/KarenCamp/Geek-Shop/produtos/${id}`, {
         method: 'DELETE'
     })
 }
 
 const detalhaProduto = (id) => {
-    return fetch(`http://localhost:3000/produtos/${id}`)
+    return fetch(`https://my-json-server.typicode.com/KarenCamp/Geek-Shop/produtos/${id}`)
         .then(resposta => {
             return resposta.json()
         })
 }
 
 const atualizaProduto = (id, name, price, description) => {
-    return fetch(`http://localhost:3000/produtos/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/KarenCamp/Geek-Shop/produtos/${id}`, {
         method: 'PUT',
         headers: {
             'Content-type': 'application/json'
