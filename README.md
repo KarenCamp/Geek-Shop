@@ -41,4 +41,4 @@ Filtro da barra de pesquisa agora refinando os resultados
 
 Updating - 07/08/2022:
 
-Agora é possível fazer o Crud na nuvem, através da integração com uma aplicação no Heroku. Thanks, @YoussefZidan, for your post page about the fake server and equivalent repository.
+Agora é possível fazer o Crud na nuvem, através da integração com uma aplicação no Heroku. Thanks, @YoussefZidan , for your post page about the fake server and equivalent repository.
