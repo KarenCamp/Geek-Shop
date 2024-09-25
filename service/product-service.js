@@ -1,14 +1,14 @@
 const listaProdutos = () =>  {
-    //return fetch(`http://localhost:3000/produtos`)
-    //return fetch(`https://my-json-server.typicode.com/KarenCamp/Geek-Shop/produtos`)
-    return fetch(`https://json-server-test-fake-api.herokuapp.com/produtos`)
+    //return fetch('http://localhost:3000/produtos')
+    //return fetch('https://my-json-server.typicode.com/KarenCamp/Geek-Shop/produtos')
+    return fetch('https://json-server-test-fake-api.herokuapp.com/produtos')
     .then(resposta => {
         return resposta.json()
     })
 }
 
 const criaProduto = (id, name, price, description) => { 
-    return fetch(`https://json-server-test-fake-api.herokuapp.com/produtos`, {
+    return fetch('https://my-json-server.typicode.com/KarenCamp/Geek-Shop/produtos', {
         method: 'POST', 
         headers: {
             'Content-Type' : 'application/json'
@@ -26,20 +26,20 @@ const criaProduto = (id, name, price, description) => {
 }
 
 const removeProduto = (id) => { 
-    return fetch(`https://json-server-test-fake-api.herokuapp.com/produtos`, {
+    return fetch('https://my-json-server.typicode.com/KarenCamp/Geek-Shop/produtos', {
         method: 'DELETE'
     })
 }
 
 const detalhaProduto = (id) => {
-    return fetch(`https://json-server-test-fake-api.herokuapp.com/produtos/${id}`)
+    return fetch('https://my-json-server.typicode.com/KarenCamp/Geek-Shop/produtos/${id}')
         .then(resposta => {
             return resposta.json()
         })
 }
 
 const atualizaProduto = (id, name, price, description) => {
-    return fetch(`https://json-server-test-fake-api.herokuapp.com/produtos/${id}`, {
+    return fetch('https://my-json-server.typicode.com/KarenCamp/Geek-Shop/produtos/${id}', {
         method: 'PUT',
         headers: {
             'Content-type': 'application/json'
