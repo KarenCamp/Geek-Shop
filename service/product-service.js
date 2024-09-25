@@ -1,7 +1,7 @@
 const listaProdutos = () =>  {
     //return fetch('http://localhost:3000/produtos')
     //return fetch('https://my-json-server.typicode.com/KarenCamp/Geek-Shop/produtos')
-    return fetch('https://json-server-test-fake-api.herokuapp.com/produtos')
+    return fetch(`https://json-server-test-fake-api.herokuapp.com/produtos`)
     .then(resposta => {
         return resposta.json()
     })
